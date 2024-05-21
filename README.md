@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ### Train Scoring Model
 
-We use [m3e]([moka-ai/m3e-base · Hugging Face](https://huggingface.co/moka-ai/m3e-base)) model as our scoring model. To finetune this model, please first process the question and serialized triples into JSON lines with the following keys: sentence1, sentence2, and label. A label of 0 denotes irrelevant, while a label of 1 denotes relevant.
+We use [m3e](https://huggingface.co/moka-ai/m3e-base) model as our scoring model. To finetune this model, please first process the question and serialized triples into JSON lines with the following keys: sentence1, sentence2, and label. A label of 0 denotes irrelevant, while a label of 1 denotes relevant.
 
 Run following command:
 
